@@ -1,0 +1,49 @@
+.head {
+  font-family: "Monoton", cursive;
+  font-weight: 100;
+  text-align: center;
+}
+
+#main-body {
+  position: fixed;
+  font-family: "Dosis", sans-serif;
+}
+
+#sidebar {
+  position: relative;
+  margin: 20;
+  font-size: x-large;
+}
+a:hover {
+  background-color: blueviolet;
+  color: cornsilk;
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+
+a .header {
+  text-decoration: none;
+  color: #333;
+}
+
+.about p {
+  padding-top: 2rem;
+  margin: 5px 5px;
+}
+#about-photos {
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+
+#about-photos img {
+  padding-right: 3rem;
+}
+p {
+  font-size: 1.3rem;
+}
+
+#splash-img {
+  padding-top: 6rem;
+}
