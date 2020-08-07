@@ -29,14 +29,23 @@
 
   <body>
     <div class="container">
-      <div class="row py-3">
-        <div class="col-3 order-2" id="sidebar">
+      <div class="row">
+        <div class="sidebar-sticky pt-3" id="sidebar">
           <div class="sticky-top">
-            <ul class="list-unstyled components">
-              <li><a href="photos.html">photos</a></li>
-              <li><a href="about.html">about</a></li>
-              <li><a href="contact.html">contact</a></li>
+            <h1 class="head m-2"><a href="index.html">Julia Williams</a></h1>
+            <hr />
+            <ul class="list-unstyled components navbar-nav">
+              <li class="">
+                <a class="" href="photos.html">photos</a>
+              </li>
+              <li class="">
+                <a class="" href="about.html">about</a>
+              </li>
+              <li class="">
+                <a class="" href="contact.html">contact</a>
+              </li>
             </ul>
+            <hr />
             <div class="row" id="social-medias">
               <div class="col-2" id="instagram">
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -53,12 +62,11 @@
           </div>
         </div>
 
-        <div class="col" id="main">
-          <h1 class="head m-2"><a href="index.html">Julia Williams</a></h1>
+        <main class="col" id="main-body">
           <div class="row">
             <div class="col-3">
               <a
-                href="1.jpg"
+                href="./photos/1.jpg"
                 class="thumbnail"
                 data-lightbox="photos"
                 data-title="First Caption"
@@ -71,7 +79,7 @@
             </div>
             <div class="col-4">
               <a
-                href="2.jpg"
+                href="./photos/2.jpg"
                 class="thumbnail"
                 data-lightbox="photos"
                 data-title="First Caption"
@@ -84,7 +92,7 @@
             </div>
             <div class="col-4">
               <a
-                href="3.jpg"
+                href="./photos/3.jpg"
                 class="thumbnail"
                 data-lightbox="photos"
                 data-title="I love the dead"
@@ -97,7 +105,7 @@
             </div>
             <div class="col-7">
               <a
-                href="1.jpg"
+                href="./photos/1.jpg"
                 class="thumbnail"
                 data-lightbox="photos"
                 data-title="First Caption"
@@ -110,7 +118,7 @@
             </div>
             <div class="col-4">
               <a
-                href="2.jpg"
+                href="./photos/2.jpg"
                 class="thumbnail"
                 data-lightbox="photos"
                 data-title="First Caption"
@@ -123,7 +131,7 @@
             </div>
             <div class="col-5">
               <a
-                href="3.jpg"
+                href="./photos/3.jpg"
                 class="thumbnail"
                 data-lightbox="photos"
                 data-title="I love the dead"
@@ -136,7 +144,7 @@
             </div>
             <div class="col-5">
               <a
-                href="3.jpg"
+                href="./photos/1.jpg"
                 class="thumbnail"
                 data-lightbox="photos"
                 data-title="I love the dead"
@@ -149,7 +157,7 @@
             </div>
             <div class="col-4">
               <a
-                href="3.jpg"
+                href="./photos/3.jpg"
                 class="thumbnail"
                 data-lightbox="photos"
                 data-title="I love the dead"
@@ -162,7 +170,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
     <script src="dist/js/lightbox-plus-jquery.js"></script>
   </body>

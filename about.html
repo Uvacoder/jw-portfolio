@@ -27,14 +27,23 @@
 
   <body>
     <div class="container">
-      <div class="row py-3">
-        <div class="col-3 order-2" id="sidebar">
+      <div class="row">
+        <div class="sidebar-sticky pt-3" id="sidebar">
           <div class="sticky-top">
-            <ul class="list-unstyled components">
-              <li><a href="photos.html">photos</a></li>
-              <li><a href="about.html">about</a></li>
-              <li><a href="contact.html">contact</a></li>
+            <h1 class="head m-2"><a href="index.html">Julia Williams</a></h1>
+            <hr />
+            <ul class="list-unstyled components navbar-nav">
+              <li class="">
+                <a class="" href="photos.html">photos</a>
+              </li>
+              <li class="">
+                <a class="" href="about.html">about</a>
+              </li>
+              <li class="">
+                <a class="" href="contact.html">contact</a>
+              </li>
             </ul>
+            <hr />
             <div class="row" id="social-medias">
               <div class="col-2" id="instagram">
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -50,10 +59,9 @@
             </div>
           </div>
         </div>
-        <div class="col" id="main">
-          <h1 class="head m-2">
-            <a class="header" href="index.html">Julia Williams</a>
-          </h1>
+        <main class="col" id="main-body">
+
+         
           <!-- use a small image here with a bit of transparency -->
           <!-- potentially three images -->
           <div class="row center" id="about-photos">
@@ -77,6 +85,7 @@
             />
           </div>
           <div class="about">
+            <h2 class="about-header">My story</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
               tempora enim blanditiis veniam cumque ut porro ex, soluta, numquam
@@ -97,7 +106,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   </body>
 </html>

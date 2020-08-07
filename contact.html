@@ -26,14 +26,23 @@
 
   <body>
     <div class="container">
-      <div class="row py-3">
-        <div class="col-3 order-2" id="sidebar">
+      <div class="row">
+        <div class="sidebar-sticky pt-3" id="sidebar">
           <div class="sticky-top">
-            <ul class="list-unstyled components">
-              <li><a href="photos.html">photos</a></li>
-              <li><a href="about.html">about</a></li>
-              <li><a href="contact.html">contact</a></li>
+            <h1 class="head m-2"><a href="index.html">Julia Williams</a></h1>
+            <hr />
+            <ul class="list-unstyled components navbar-nav">
+              <li class="">
+                <a class="" href="photos.html">photos</a>
+              </li>
+              <li class="">
+                <a class="" href="about.html">about</a>
+              </li>
+              <li class="">
+                <a class="" href="contact.html">contact</a>
+              </li>
             </ul>
+            <hr />
             <div class="row" id="social-medias">
               <div class="col-2" id="instagram">
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -50,18 +59,31 @@
           </div>
         </div>
 
-        <div class="col" id="main">
-          <h1 class="head m-2"><a href="index.html">Julia Williams</a></h1>
-
+        <main role="main" class="col contact-form" id="main-body">
+          <h3>Reach Out!</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+            aliquid sunt itaque quo, sed nostrum recusandae? Accusamus magnam
+            ducimus voluptates earum natus voluptatem voluptate aut, rem ea
+            fugit, porro cupiditate!
+          </p>
           <form action="#">
             <div class="form-group">
+              <textarea class="form-control"></textarea>
               <label for="clientEmail">Email Address</label>
-              <input type="email" name="client" id="clientEmail" />
+              <input
+                type="email"
+                class="form-control"
+                name="client"
+                id="clientEmail"
+              />
 
-              <button type="submit">Submit</button>
+              <button class="btn btn-default btn-primary" type="submit">
+                Submit
+              </button>
             </div>
           </form>
-        </div>
+        </main>
       </div>
     </div>
   </body>

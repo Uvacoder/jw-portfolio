@@ -1,17 +1,17 @@
 .head {
   font-family: monospace;
   font-weight: 100;
-  text-align: center;
 }
 
 #main-body {
-  position: fixed;
+  position: relative;
   font-family: "Dosis", sans-serif;
+  padding: 1rem;
 }
 
 #sidebar {
   position: relative;
-  margin: 20;
+  margin: 0;
   font-size: x-large;
 }
 a:hover {
@@ -46,4 +46,11 @@ p {
 
 #splash-img {
   padding-top: 6rem;
+}
+
+.contact-form {
+  margin-top: 2rem;
+}
+.about-header {
+  text-align: center;
 }
