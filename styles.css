@@ -27,6 +27,10 @@ a .header {
   text-decoration: none;
   color: #333;
 }
+.thumbnail:hover {
+  background-color: #ffffff;
+  opacity: 70%;
+}
 
 .about p {
   padding-top: 1rem;
