@@ -45,7 +45,8 @@ p {
 }
 
 #splash-img {
-  padding-top: 6rem;
+  width: 90%;
+  margin-left: 3.5rem;
 }
 
 .contact-form {
